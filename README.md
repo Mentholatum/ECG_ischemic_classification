@@ -296,32 +296,8 @@ Concat[f_e, f_l] ──► 深层分类头 (256+1024 → 512 → 256 → 128 →
 #### ⑤ 深层分类头
 采用 `LayerNorm + Linear + ReLU + Dropout` 的多层结构，逐步降维并增强非线性判别能力，最终输出单节点 logits 用于二分类。
 
-
 ---
 
-## 5. 快速开始（Quick Start）
-
-```bash
-# 1. 克隆项目
-git clone https://github.com/Mentholatum/ECG_ischemic_classification.git
-cd ECG_ischemic_classification
-
-# 2. 安装环境
-pip install -r requirements.txt
-
-# 3. 数据预处理（修改路径后）
-cd data_processor
-python data_preprocess.py
-python generate_5fold_json.py
-cd ..
-
-# 4. 启动训练
-python train.py
-```
-
----
-
-## 6. 许可证
+## 5. 许可证
 
 本项目采用 [MIT License](LICENSE) 开源。
-```
