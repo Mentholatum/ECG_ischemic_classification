@@ -280,6 +280,17 @@ Concat[f_e, f_l] ──► 深层分类头 (256+1024 → 512 → 256 → 128 →
 
 ---
 
-## 5. 许可证
+## 5. 模型权重
+五折交叉的模型权重可前往：
+```
+通过网盘分享的文件：ECG_ischemic_classification_model_weights
+链接: https://pan.baidu.com/s/1s7o3ogZ2f0T1kLLKVsiEcQ?pwd=jf6c 提取码: jf6c 
+--来自百度网盘超级会员v9的分享
+```
+进行获取。
+
+---
+
+## 6. 许可证
 
 本项目采用 [MIT License](LICENSE) 开源。
