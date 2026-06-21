@@ -281,7 +281,7 @@ Concat[f_e, f_l] ──► 深层分类头 (256+1024 → 512 → 256 → 128 →
 ---
 
 ## 5. 模型权重
-五折交叉的模型权重可前往：
+文件夹`/ecg_crnn_output`内的五折交叉的模型权重可前往：
 ```
 通过网盘分享的文件：ECG_ischemic_classification_model_weights
 链接: https://pan.baidu.com/s/1s7o3ogZ2f0T1kLLKVsiEcQ?pwd=jf6c 提取码: jf6c 
