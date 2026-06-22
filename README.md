@@ -15,7 +15,7 @@ ECG-Ischemia-Classification/
 │   ├── dataset.py              # PyTorch Dataset 与数据加载
 │   └── generate_5fold_json.py  # 1:1 平衡五折交叉验证划分生成
 ├── ecgnet.py                # ECGNet 网络架构定义
-├── train.py                    # 训练、验证与测试主脚本
+├── train.py                    # 训练、验证主脚本
 ├── requirements.txt            # Python 依赖
 └── README.md                   # 本文件
 ```
